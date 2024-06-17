@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top {
+    background-color: #1f2937;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 400px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.link {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+.website {
+    display: flex;
+}
+
+.header {
+    margin: 100px 400px;
+    display: flex;
+    gap: 200px;
+}
+
+.title-subtext {
+    max-width: 450px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hiking {
+    height: 200px;
+    width: 450px;
+}
+
+.top-button {
+    margin-top: 10px;
+}
+
+.button1 {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+.random-info {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.pictures {
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.info-images {
+    max-width: 150px;
+}
+
+.italic {
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    padding: 80px;
+}
+
+.quote {
+    display: flex;
+    font-style: italic;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-left: 400px;
+}
+
+.filling {
+    max-width: 850px;
+    margin-bottom: 0;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.container-bottom {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 20px 80px;
+}
+
+.call {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.sign-up {
+    margin-top: 0;
+}
+
+.call-sign {
+    margin: 20px;
+}
+
+.sign-button {
+    margin-left: 50px;
+}
+
+.button2 {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 5px 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.footer {
+    margin: 40px;
+}
